@@ -1,0 +1,24 @@
+body, a, p{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-style: none;   
+}
+
+.btn{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(23, 185, 23);
+    color: white;
+    padding: 12px;
+    margin: 3px;
+    border-radius: 3px;
+}
+
+.header-nav{
+    background-color: rgb(177, 175, 174);
+}
+nav{
+    float: right;
+    padding-top: 200px;
+}
