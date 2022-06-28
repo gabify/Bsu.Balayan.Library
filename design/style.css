@@ -1,14 +1,17 @@
-body, a, p{
+body, a, p, ul{
     margin: 0;
     padding: 0;
-    text-decoration: none;
-    font-style: none;   
+    text-decoration: none;   
 }
+body{
+    background-color: #d1ccc0;
+}
+
 
 .btn{
     height: 100%;
     width: 100%;
-    background-color: rgb(23, 185, 23);
+    background-color: rgb(183, 21, 64);
     color: white;
     padding: 12px;
     margin: 3px;
@@ -16,9 +19,51 @@ body, a, p{
 }
 
 .header-nav{
-    background-color: rgb(177, 175, 174);
+    background-color: rgb(183, 21, 64);
+    padding-left: 230px;
+    padding-right: 100px;
+    display: flex;
+    color: white;
 }
 nav{
-    float: right;
-    padding-top: 200px;
+    margin-top: 40px;
+    margin-left: 500px;
+
 }
+
+.side-nav{
+    height: 100%;
+    min-width: 160px;
+    background-color: rgb(247, 241, 227);
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    overflow-x: hidden;
+    padding: 20px 0px;
+}
+
+.side-nav ul li{
+    list-style-type: none;
+}
+
+.nav-links{
+    margin: 20px 0px;
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+}
+
+.nav-links:hover{
+    background-color:#d1ccc0;
+}
+
+.nav-links a{
+    font-size: 1.7em;
+    color: #202020;
+}
+
+.nav-links a:hover{
+    color: rgb(247, 241, 227);x
+}
+
+

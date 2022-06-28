@@ -15,5 +15,13 @@
                 <a class="btn" href="http://">Journals</a>
             </nav>
         </header>
+        
+        <section class="side-nav">
+            <ul>
+                <li class="nav-links"><a href="http://">Books</a></li>
+                <li class="nav-links"><a href="http://">Theses</a></li>
+                <li class="nav-links"><a href="http://">Journals</a></li>
+            </ul>
+        </section>
 
     
