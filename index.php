@@ -1,7 +1,12 @@
 <?php include('shared/header.php'); ?>
 
     <main>
-        gfbsklfdslfksl
+        <div class="card">
+            <div class="card-content">
+                <h4>2575</h4>
+                <p>Books</p>
+            </div>
+        </div>
     </main>
 
 <?php include('shared/footer.php'); ?>
