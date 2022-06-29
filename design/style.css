@@ -34,7 +34,7 @@ nav{
 .side-nav{
     height: 100%;
     min-width: 220px;
-    background-color: rgb(247, 241, 227);
+    background-color: rgb(10, 61, 98 );
     position: fixed;
     z-index: 1;
     left: 0;
@@ -54,12 +54,12 @@ nav{
 }
 
 .nav-links:hover{
-    background-color:#d1ccc0;
+    background-color: rgb(3, 46, 77);
 }
 
 .nav-links a{
     font-size: 1.7em;
-    color: #202020;
+    color: white;
 }
 
 .nav-links a:hover{
@@ -68,4 +68,71 @@ nav{
 main{
     margin-left: 220px;
     padding: 0px 10px;
+}
+
+.card{
+    min-height: 200px;
+    min-width: 330px;
+    margin: 25px 10px;
+    background-color:rgb(247, 241, 227);
+    border-radius: 3px;
+    box-shadow: 0px 5px 6px 0px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    position: relative;
+}
+
+#book-card{
+    background-color: #2e86de;
+}
+
+#thesis-card{
+    background-color: #ee5253;
+}
+
+#journal-card{
+    background-color: #ff9f43;
+}
+
+.card:hover{
+    box-shadow: 0px 10px 12px 0px rgba(0, 0, 0, 0.2);
+}
+
+.card-content{
+    margin: 0px 20px;
+}
+
+.card-header{
+    display:flex;
+}
+
+.card-content h4{
+    font-size: 1.9em;
+    color: white;
+}
+
+.card-content p{
+    font-size: 1.3em;
+    color: white;
+}
+
+.card-footer{
+    margin-top: 30px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    padding: 10px;
+
+}
+
+.card-footer p{
+    text-align: center;
+    color: white;
+}
+
+footer{
+    margin-left: 220px;
+    padding: 13px;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
 }
